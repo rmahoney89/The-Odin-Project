@@ -9,5 +9,40 @@ h2 {
 }
 
 body {
-    background-color: #FFC300; 
+    background: linear-gradient(45deg, #581845, #900C3F, #C70039, #FF5733, #FFC300, #DAF7A6);
+    
+}
+
+.container {
+    display: flex;
+    background-color: #900C3F;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 500px;
+    border-style: solid;
+    border-color: #FF5733;
+    border-width: 10px;
+}
+
+.box1, .box2 {
+    padding: 50px;
+    background-color: #DAF7A6;
+    margin: 50px;
+    border-style: solid;
+    border-color: #FF5733;
+    border-width: 10px;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    max-width: 500px;
+    border-style: solid;
+    border-color: #FF5733;
+    border-width: 10px;
 }
